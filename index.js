@@ -47,7 +47,6 @@ bot.on('message', (message) => {
     }
 });
 
-bot.login('NDY0ODYwNzIyODIwODA4NzMy.DiFG9w.c6v7UQF-3ocnL30V3JwxDxWvzJ8');
 
 function address(k){
     for(var n;n<addresses.length;n++){
@@ -70,3 +69,4 @@ function adminCheck(str){
     }
     return false;
 }
+bot.login('NDY0ODYwNzIyODIwODA4NzMy.DiFG9w.c6v7UQF-3ocnL30V3JwxDxWvzJ8');
