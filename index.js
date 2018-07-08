@@ -37,6 +37,7 @@ bot.on('message', (message) => {
                 var temp1=Number(tempB);
                 if(tempB!="NaN"){
                     addresses.splice(temp1,temp1+1);
+                    message.channel.send("But what if they still wanted protection!? :confounded: :sweat: ");
                 }
             }
             else if(k.includes("addAdmin")){
