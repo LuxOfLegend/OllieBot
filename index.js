@@ -3,7 +3,7 @@ const bot = new Discord.Client();
 var addresses=new Array("CHOATE", "SCHRAED", "SCARBOROUGH","LUXBOTISGAY");
 var admins = new Array();
 var filePath = "List.txt";
-admins.push("Lux💜#9030")
+admins.push("Lux💜#9030");
 
 var fuckers = new Array();
 
