@@ -14,7 +14,7 @@ bot.on('message', (message) => {
     if (message.author.bot){
         return;
     } 
-    if(addressC(k)){
+    if(addressC(k)&&k.length>1&&!(k.substring(0,1).includes("+"))){
         message.delete();
     }
     else if(k.length>1){
