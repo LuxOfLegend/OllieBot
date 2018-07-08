@@ -1,6 +1,8 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
+message.channel.send("wow guys congrats!");
+
 bot.on('message', (message) => {
     var k=message.content;
     k=k.toUpperCase();
