@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-var addresses=new Array("CHOATE", "SHRAED", "SCARBOROUGH","LUXBOTISGAY");
+var addresses=new Array("CHOATE", "SCHRAED", "SCARBOROUGH","LUXBOTISGAY");
 var admins = new Array();
 var filePath = "List.txt";
 admins.push("Lux💜#9030")
@@ -88,8 +88,7 @@ function adminCheck(str){
 bot.on('messageUpdated', (oldMessage, newMessage) => {
     var k=newMessage.content;
     k=k.toUpperCase();
-    if(k.includes('CHOATE')||k.includes('CHOAT')){
-        message
+    if(addressC(k))){
         message.delete();
     }
 });
