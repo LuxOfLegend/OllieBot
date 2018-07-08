@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-message.channel.send("wow guys congrats!");
+
 
 bot.on('message', (message) => {
     var k=message.content;
@@ -9,6 +9,9 @@ bot.on('message', (message) => {
     if(k.includes('CHOATE')||k.includes('CHOAT')){
         message
         message.delete();
+    }
+    if(k=="+"){
+        message.channel.send("wow guys congrats!");
     }
 });
 
