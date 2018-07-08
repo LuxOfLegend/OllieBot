@@ -27,13 +27,13 @@ bot.on('message', (message) => {
                 message.channel.send("LuxBot v1.1 \n Don't worry, I'm working on acheiving sentience! :information_desk_person: ");
             }
             else if(k.includes("addAddress")){
-                var tempA=k.substring(0,12);
+                var tempA=k.substring(12,K.length-1);
                 var tempB=tempA[1];
                 addresses.push(tempB.toUpperCase());
                 message.channel.send("Done :purple_heart:");
             }
             else if(k.includes("addAdmin")){
-                var tempA=k.substring(0,10);
+                var tempA=k.substring(10,k.length-1);
                 admins.push(tempB);
                 message.channel.send("Done :purple_heart:");
             }
