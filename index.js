@@ -28,13 +28,12 @@ bot.on('message', (message) => {
             }
             else if(k.includes("addAddress")){
                 var tempA=k.substring(12,k.length-1);
-                var tempB=tempA[1];
-                addresses.push(tempB.toUpperCase());
+                addresses.push(tempA.toUpperCase());
                 message.channel.send("Done :purple_heart:");
             }
             else if(k.includes("addAdmin")){
                 var tempA=k.substring(10,k.length-1);
-                admins.push(tempB);
+                admins.push(tempA);
                 message.channel.send("Done :purple_heart:");
             }
             else if(message.content.includes("addresses")){
