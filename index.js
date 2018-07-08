@@ -24,7 +24,7 @@ bot.on('message', (message) => {
                 message.channel.send("If you don't know the commands you probably shouldn't :purple_heart: :wink: ");
             }
             else if(k.includes("version")){
-                message.channel.send("LuxBot v1.1 \n Don't worry, I'm working on acheiving sentience! :information_desk_person: ");
+                message.channel.send("LuxBot v1.12[Beta] \nDon't worry, I'm working on acheiving sentience! :information_desk_person: ");
             }
             else if(k.includes("addAddress")){
                 var tempA=k.substring(12,K.length-1);
