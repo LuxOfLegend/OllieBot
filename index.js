@@ -88,7 +88,7 @@ function adminCheck(str){
 bot.on('messageUpdated', (oldMessage, newMessage) => {
     var k=newMessage.content;
     k=k.toUpperCase();
-    if(addressC(k))){
+    if(addressC(k)){
         message.delete();
     }
 });
