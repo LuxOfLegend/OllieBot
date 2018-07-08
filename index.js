@@ -24,25 +24,34 @@ bot.on('message', (message) => {
                 message.channel.send("If you don't know the commands you probably shouldn't :purple_heart: :wink: ");
             }
             else if(k.includes("version")){
-                message.channel.send("LuxBot v1.12[Beta] \nDon't worry, I'm working on acheiving sentience! :information_desk_person: ");
+                message.channel.send("LuxBot v1.13[Beta] \nDon't worry, I'm working on acheiving sentience! :information_desk_person: ");
             }
             else if(k.includes("addAddress")){
                 var tempA=k.substring(12,k.length);
                 addresses.push(tempA.toUpperCase());
                 message.channel.send("Done :purple_heart:");
             }
+            else if(k.includes("removeAddress")){
+                var tempA=k.split(" ");
+                var tempB=tempA[1];
+                var temp1=Number(tempB);
+                if(tempB!="NaN"){
+                    addresses.splice(temp1,temp1+1);
+                }
+            }
             else if(k.includes("addAdmin")){
                 var tempA=k.substring(10,k.length);
                 admins.push(tempA);
                 message.channel.send("Done :purple_heart:");
             }
-            else if(message.content.includes("addresses")){
+            else if(k.includes("addresses")){
                 var tempM="";
                 for(var n=0;n<addresses.length;n++){
-                    tempM+=addresses[n]+"\n";
+                    tempM+=n+": "+addresses[n]+"\n";
                 }
                 message.channel.send(tempM);
             }
+
             else{
                message.channel.send("Invalid command :sweat_smile:");
                
