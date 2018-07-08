@@ -10,9 +10,6 @@ bot.on('message', (message) => {
         message
         message.delete();
     }
-    if(k=="+"){
-        message.channel.send("wow guys congrats!");
-    }
 });
 
 bot.on('messageUpdated', (oldMessage, newMessage) => {
