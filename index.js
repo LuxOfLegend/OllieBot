@@ -5,6 +5,37 @@ var admins = new Array();
 var filePath = "List.txt";
 admins.push("Lux💜#9030");
 
+addresses.push(273 N STATE RD);
+addresses.push(273 NORTH STATE RD);
+addresses.push(273 N STATE ROAD);
+addresses.push(273 NORTH STATE ROAD);
+addresses.push(170 S STATE RD);
+addresses.push(170 SOUTH STATE RD);
+addresses.push(170 S STATE ROAD);
+addresses.push(170 SOUTH STATE RD);
+addresses.push(42 MATTHES RD);
+addresses.push(42 MATTHES ROAD);
+addresses.push(COPLEY COURT);
+addresses.push(BRIARWOOD LANE);
+addresses.push(109 FULLER RD);
+addresses.push(109 FULLER ROAD);
+addresses.push(178 SCHRADE RD);
+addresses.push(178 SCHRADE ROAD);
+addresses.push(NICHOLS PL);
+addresses.push(NICHOLS PLACE);
+addresses.push(CHOATE LN);
+addresses.push(CHOATE LANE);
+addresses.push(158 PLEASANTVILLE RD);
+addresses.push(158 PLEASANTVILLE ROAD);
+addresses.push(PROSPECT DR);
+addresses.push(PROSPECT DRIVE);
+addresses.push(ANGELA DR);
+addresses.push(ANGELA DRIVE);
+addresses.push(:B:HOATE :B:ANE);
+addresses.push(C H O A T E L N);
+addresses.push(C H O A T E L A N E);
+addresses.push(C.H.O.A.T.E.L.A.N.E);
+
 var fuckers = new Array();
 
 
